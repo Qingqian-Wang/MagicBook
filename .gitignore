@@ -1,0 +1,35 @@
+# 依赖
+node_modules/
+
+# 构建产物
+.next/
+out/
+packages/editor/dist/
+
+# Next.js 自动生成
+next-env.d.ts
+
+# TS 增量缓存
+*.tsbuildinfo
+
+# 环境变量（.env.example 是模板，保留入库）
+.env
+.env.*
+!.env.example
+
+# 部署
+.vercel
+
+# 测试
+coverage/
+
+# 系统文件 / iCloud 同步冲突副本（形如 "xxx 2.ext"）
+.DS_Store
+* 2.*
+* 2/
+
+# 本地抓取的文档数据（体积大，不入库）
+data/
+
+# 开发服务器日志
+dev-*.log
